@@ -52,3 +52,28 @@ Some things to try:
    - Execute the Ruby script with `ruby src/index.rb`.
 5. **Python**
    - Execute the Python script with `python src/index.py`.
+   
+   
+## Add your own VSCode Extensions
+Feel free to tweak the `devcontainer.json` file by adding your own ExtensionId's to the list.
+
+```json
+{
+  "name": "GraalVM",
+  "dockerFile": "Dockerfile",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "forwardPorts": [3000],
+  "extensions": [
+		"vscjava.vscode-java-pack", 
+        "dbaeumer.vscode-eslint", 
+        "ms-python.python", 
+        "rebornix.ruby", 
+        "ikuyadeu.r"
+	]
+}
+```
+
+## Thanks and happy coding! ⭐
+Don't forget to star and follow to receive updates of new content.
