@@ -1,5 +1,9 @@
 # vscode-remote-graalvm
-GraalVM development container for Visual Studio Code. Java, R, Python, Node, Ruby, WASM included.
+_GraalVM development container for Visual Studio Code. Java, R, Python, Node, Ruby, WASM included._
+
+<div align="center"> 
+    <img src='https://www.graalvm.org/docs/img/graalvm_architecture.png' width="400"/>
+</div>
 
 ## Setting up the development container
 
@@ -40,11 +44,11 @@ Some things to try:
   - Compile the Bytecode to a Native Image: `native-image HelloWorld`
   - Run the Native Image: `./HelloWorld`
 3. **R**
-   - Execute the script with `Rscript src/index.R`.
+   - Execute the R script with `Rscript src/index.R`.
 4. **Node**
-   - Execute the script with `node src/index.js`.
+   - Execute the NodeJS script with `node src/index.js`.
    - Open up the browser and visit the website at `127.0.0.1:3000`
 5. **Ruby**
-   - Execute the script with `ruby src/index.rb`.
+   - Execute the Ruby script with `ruby src/index.rb`.
 5. **Python**
-   - Execute the script with `python src/index.py`.
+   - Execute the Python script with `python src/index.py`.
